@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "MODE: USER-SOVEREIGN READ"
+echo "STATUS: SILENT UNTIL EXPLICIT QUERY"
+echo "Type a symbol (e.g., BTC, ETH, AAPL) or 'exit'"
+
+while true; do
+  read -p "Query> " q
+  case "$q" in
+    exit|quit)
+      echo "Session closed. Sovereignty preserved."
+      break
+      ;;
+    BTC|ETH|AAPL|TSLA)
+      grep -i "$q" ../ai_content/* 2>/dev/null || echo "No data available."
+      ;;
+    *)
+      echo "You own sovereignty — AI responds only within declared limits."
+      ;;
+  esac
+done

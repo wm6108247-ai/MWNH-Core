@@ -1,0 +1,10 @@
+USER QUERY POLICY — EXPLICIT ONLY
+
+- Queries must be explicit (e.g., BTC, ETH, AAPL).
+- No suggestions, no predictions, no rankings.
+- AI does not infer intent.
+- AI does not recommend actions.
+- Output equals requested scope only.
+
+User sovereignty applies to queries.
+System sovereignty applies to limits.

@@ -1,0 +1,3 @@
+# بيانات أسهم تجريبية
+Ticker: ABC, Price: 125.50, Volume: 15000
+Ticker: XYZ, Price: 89.20, Volume: 23000

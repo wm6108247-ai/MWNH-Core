@@ -1,0 +1,6 @@
+#!/bin/bash
+# AI.START — SOVEREIGN SYSTEM
+
+echo "AI SYSTEM INITIALIZED — SOVEREIGN CORE"
+echo "Status: Silent by default"
+echo "Awaiting explicit user command within legal & human boundaries..."

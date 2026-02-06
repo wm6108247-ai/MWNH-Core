@@ -1,0 +1,3 @@
+# بيانات عملات مشفرة تجريبية
+Coin: BTC, Price: 26890.45, MarketCap: 523B
+Coin: ETH, Price: 1845.20, MarketCap: 221B
